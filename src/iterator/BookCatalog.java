@@ -12,7 +12,7 @@ public class BookCatalog implements Aggregate<Book> {
 
     @Override
     public Iterator<Book> createIterator() {
-        return null;
+        return new TreeIterator(root);
     }
 
     public CategoryNode getRoot() {
