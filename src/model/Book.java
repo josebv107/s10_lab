@@ -50,7 +50,7 @@ public class Book {
     @Override
     public String toString() {
         return String.format(
-                "\"%s\" - %s (%d) | Editorial: %s | Idioma: %s | Genero: %s | Precio: S/ %.2f",
+                "\"%s\" - %s (%d) | Editorial: %s | Idioma: %s | Genero: %s | Precio: $%.2f",
                 title, author, year, publisher, language, genre, price
         );
     }
