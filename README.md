@@ -7,7 +7,7 @@ es el recorrido del catálogo usando un **árbol jerárquico**.
 
 ## Estructura del proyecto
 
-file:///home/josebv/Im%C3%A1genes/Capturas%20de%20pantalla/Captura%20de%20pantalla_20260614_195700.png
+![Captura de pantalla_20260614_195700.png](docs/Captura%20de%20pantalla_20260614_195700.png)
 
 - `model`: clases de datos (el libro y el nodo del árbol).
 - `iterator`: las piezas del patrón (interfaces `Aggregate` e `Iterator`, y
@@ -16,7 +16,7 @@ file:///home/josebv/Im%C3%A1genes/Capturas%20de%20pantalla/Captura%20de%20pantal
 
 ## Diagrama de clases
 
-file:///home/josebv/Im%C3%A1genes/Capturas%20de%20pantalla/S10_AmazonKindle.png
+![S10_AmazonKindle.png](docs/S10_AmazonKindle.png)
 
 ## La colección: árbol jerárquico
 
@@ -115,4 +115,4 @@ mencioné antes).
 
 ## Salida del programa
 
-file:///home/josebv/Im%C3%A1genes/Capturas%20de%20pantalla/Captura%20de%20pantalla_20260614_195643.png
+![Captura de pantalla_20260614_195643.png](docs/Captura%20de%20pantalla_20260614_195643.png)
