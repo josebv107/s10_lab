@@ -9,14 +9,14 @@ public class Book {
     private String genre;
     private double price;
 
-    public Book(double price, String genre, String language, String publisher, int year, String author, String title) {
-        this.price = price;
-        this.genre = genre;
-        this.language = language;
-        this.publisher = publisher;
-        this.year = year;
-        this.author = author;
+    public Book(String title, String author, int year, String publisher, String language, String genre, double price) {
         this.title = title;
+        this.author = author;
+        this.year = year;
+        this.publisher = publisher;
+        this.language = language;
+        this.genre = genre;
+        this.price = price;
     }
 
     public String getTitle() {
